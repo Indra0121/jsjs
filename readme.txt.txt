@@ -1,0 +1,1 @@
+j'ai essayé d'y travailler dessus , mais la deadline est proche XD et pas le temps avec les examens du coup c pas grand chose , comme référence le code utilisé et celui en classe mais modifier et un peu refait, ameliorer si on se permet de dire ca XD

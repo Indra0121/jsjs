@@ -1,0 +1,76 @@
+#mesproduits {
+  margin: 10vh 0;
+  row-gap: 10vh;
+}
+img {
+  width: 250px;
+  height: 250px;
+}
+html {
+  overflow-x: hidden;
+}
+.rounded {
+  height: 30px;
+  width: 30px;
+}
+.col-4{
+  display:flex;
+  flex-direction: column;
+}
+.cart {
+  color: white;
+}
+#img{
+  height: 50px;
+  width:50px;
+}
+.addproduct,
+#add {
+  font-family: "Montserrat", sans-serif;
+  margin: 5rem 0;
+  padding: 1rem;
+  background: none;
+  text-transform: uppercase;
+  border: 1px solid #dd4747;
+}
+input,
+textarea {
+  padding: 5px 10px;
+  width: 220px;
+}
+#add {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 220px;
+}
+.addproduct:hover,
+#add:hover {
+  background: #dd4747;
+  color: rgb(202, 224, 100);
+}
+.addproduct:active,
+#add:active .addproduct:focus,
+#add:focus {
+  outline: none;
+}
+.heart {
+  
+  width: 100px;
+  height: 100px;
+  background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+  transition: background-position steps(28);
+  transition-duration: 0s;
+}
+.heart.is-active {
+  transition-duration: 1s;
+  background-position: -2800px 0;
+}
+body {
+  background: linear-gradient(135deg, #121721 0%, #000 100%) fixed;
+}
+.reaction {
+
+  transform: translate(-50%, -50%);
+}
